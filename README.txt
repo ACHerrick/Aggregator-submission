@@ -58,3 +58,9 @@ API = "AIzaSyDW15a3LCSe7J1YDRvUMWR1IsVlMxqQtRU"
 API = "AIzaSyB28WD_QVBYhUlO3fr22uMNr2zemUA7ZyQ"
 API = "AIzaSyCkSm8tFiiEFSoXc9ixXNLlMD0N3O52sno"
 API = "AIzaSyDLWHjPZycWPeYui9yg2AM0own1IaVHIFc"
+
+
+Note: Outside of necessary Django packages, the only neccesary import installation
+(beyond Python defaults) is sklearn, which requires scipy as a prerequisite. This is
+used for data gathering (i.e, not required to run the website) to compute Starbucks 
+distances efficiently.
